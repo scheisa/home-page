@@ -1,7 +1,7 @@
 let yoda = document.querySelector('.yoda')
 let trooper = document.querySelector('.trooper')
 let gruvbox = document.querySelector('.gruvbox')
-let default = document.querySelector('.default')
+let def = document.querySelector('.default')
 
 const theme = localStorage.getItem('currentTheme');
 updateUI();
@@ -27,7 +27,7 @@ function updateUI(){
   }
 }
 
-default.addEventListener('click' ,()=>{
+def.addEventListener('click' ,()=>{
   localStorage.setItem("currentTheme" , "")
 });
 
