@@ -1,10 +1,11 @@
 let yoda = document.querySelector('.yoda')
 let trooper = document.querySelector('.trooper')
 let gruvbox = document.querySelector('.gruvbox')
-let def = document.querySelector('.def')
+let default = document.querySelector('.default')
 
 const theme = localStorage.getItem('currentTheme');
 updateUI();
+
 function updateUI(){
   if (theme == "yoda") {
     document.body.style.setProperty("--bg", "#2B2A33")
@@ -26,9 +27,10 @@ function updateUI(){
   }
 }
 
-def.addEventListener('click' ,()=>{
+default.addEventListener('click' ,()=>{
   localStorage.setItem("currentTheme" , "")
 });
+
 yoda.addEventListener('click',()=>{
   localStorage.setItem("currentTheme" , "yoda")
   updateUI();
