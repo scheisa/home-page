@@ -1,124 +1,137 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap" rel="stylesheet">
 
-   <script src="clock.js"></script>
-  
-   <link rel="website icon" type="png" href="icons\home.png">
+	<script src="clock.js"></script>
+
+	<link rel="website icon" type="png" href="icons\home.png">
 
 	<title>Home</title>
 </head>
+
 <body onload="initClock()">
 
-  <div class="settings">
-    <nav class="menu">
-          <ul class="menu-button">
-            <li>
-              <form class="pseudo-button">
-                <img src="icons/settings.png">
-              </form>
-              <ul class="sub-menu">
-                <li><a href="" class="default">default</a></li>
-                <li><a href="" class="yoda">yoda</a></li>
-                <li><a href="" class="trooper">trooper</a></li>
-                <li><a href="" class="gruvbox">gruvbox</a></li>
-              </ul>
-            </li>
-          </ul>
-  </div>
+	<div class="settings">
+		<nav class="menu">
+			<ul class="menu-button">
+				<li>
+					<form class="pseudo-button">
+						<img src="icons/settings.png">
+					</form>
+					<ul class="sub-menu">
+						<li><a href="" class="default">default</a></li>
+						<li><a href="" class="yoda">yoda</a></li>
+						<li><a href="" class="trooper">trooper</a></li>
+						<li><a href="" class="gruvbox">gruvbox</a></li>
+					</ul>
+				</li>
+			</ul>
+	</div>
 
-	<div class = "content">
-		<div class = "square">
+	<div class="content">
+		<div class="square">
 
-      <div class = "clock">
-  
-  	    <div class = "time">
-  	      <span id = "hour">00</span>:
-  	      <span id = "minutes">00</span>:
-  	      <span id = "seconds">00</span>
-  	      <span id = "period"> AM</span>
-  	    </div>
+			<div class="clock">
 
-        <div class = "days">
-  	      <span id = "dayname">Day</span>,
-  		  	<span id = "month">Month</span>
-          <span id= "daynum">00</span>,
-  		  	<span id = "year">Year</span>
-        </div>
-      </div>
+				<div class="time">
+					<span id="hour">00</span>:
+					<span id="minutes">00</span>:
+					<span id="seconds">00</span>
+					<span id="period"> AM</span>
+				</div>
 
-			<form class="search-bar" method = "get" action="https://duckduckgo.com/?q=">
-				 <input type = "text" placeholder="Search with DuckDuckGo or enter address" autocomplete="off" autofocus name="q">
-				 <button><img src="icons/lupa.png"></button>
+				<div class="days">
+					<span id="dayname">Day</span>,
+					<span id="month">Month</span>
+					<span id="daynum">00</span>,
+					<span id="year">Year</span>
+				</div>
+			</div>
+
+			<form class="search-bar" method="get" action="https://duckduckgo.com/?q=">
+				<input type="text" placeholder="Search with DuckDuckGo or enter address" autocomplete="off" autofocus
+					name="q">
+				<button><img src="icons/lupa.png"></button>
 			</form>
 
-      <div class="buttons">
-          <div class="clmn1">
-            <a href="https://www.youtube.com" class = "youtube">
-              <img src="logos/youtube.png">
-              <p>YouTube</p>
-            </a>
-            <a href="https://github.com/" class = "git">
-              <img src="logos/git.png">
-              <p>Github</p>
-            </a>
-            <a href="https://twitter.com/home" class = "twitter">
-              <img src="logos/twitter.png">
-              <p>Twitter</p>
-            </a>
-            <button class="secret"></button>
-          </div>
+			<div class="buttons">
+				<div class="clmn1">
 
-          <div class="clmn2">
-            <a href="https://translate.google.com/?sl=en&tl=uk&op=translate" class = "translator">
-              <img src="logos/translator.png">
-              <p>Translate</p>
-            </a>
-            <a href="https://mail.google.com/mail/u/0/#inbox" class = "gmail">
-              <img src="logos/gmail.png">
-              <p>Gmail</p>
-            </a>
+					<a href="https://www.youtube.com" class="youtube">
+						<img src="logos/youtube.png">
+						<p>YouTube</p>
+					</a>
 
-            <a href="https://ua.sinoptik.ua/10-%D0%B4%D0%BD%D1%96%D0%B2" class = "sinoptik">
-              <img src="logos/sinoptik.png">
-              <p>Sinoptik</p>
-            </a>
-          </div>
+					<a href="https://github.com/" class="git">
+						<img src="logos/git.png">
+						<p>Github</p>
+					</a>
 
-          <div class="clmn3">
-            <a href="https://monkeytype.com/" class = "keyboard">
-              <img src="logos/keyboard.png">
-              <p>Typing</p>
-            </a>
-            <a href="https://www.reddit.com/" class = "reddit">
-              <img src="logos/reddit.png">
-              <p>Reddit</p>
-            </a>
-            <a href="https://drive.google.com/drive/u/0/my-drive" class = "drive">
-              <img src="logos/drive.png">
-              <p>Drive</p>
-            </a>
+					<a href="https://twitter.com/home" class="twitter">
+						<img src="logos/twitter.png">
+						<p>Twitter</p>
+					</a>
+					<button class="secret"></button>
+				</div>
 
-          </div>
-      </div>
+				<div class="clmn2">
+
+					<a href="https://translate.google.com/?sl=en&tl=uk&op=translate" class="translator">
+						<img src="logos/translator.png">
+						<p>Translate</p>
+					</a>
+
+					<a href="https://mail.google.com/mail/u/0/#inbox" class="gmail">
+						<img src="logos/gmail.png">
+						<p>Gmail</p>
+					</a>
+
+					<a href="https://ua.sinoptik.ua/10-%D0%B4%D0%BD%D1%96%D0%B2" class="sinoptik">
+						<img src="logos/sinoptik.png">
+						<p>Sinoptik</p>
+					</a>
+
+				</div>
+
+				<div class="clmn3">
+
+					<a href="https://monkeytype.com/" class="keyboard">
+						<img src="logos/keyboard.png">
+						<p>Typing</p>
+					</a>
+
+					<a href="https://www.reddit.com/" class="reddit">
+						<img src="logos/reddit.png">
+						<p>Reddit</p>
+					</a>
+
+					<a href="https://drive.google.com/drive/u/0/my-drive" class="drive">
+						<img src="logos/drive.png">
+						<p>Drive</p>
+					</a>
+
+				</div>
+			</div>
 		</div>
 
 		<div class="picture">
-		  <img class="image" src="pictures/pampam.png">
-    </div>
+			<img class="image" src="pictures/pampam.png">
+		</div>
 	</div>
 
-  <script src="themes.js"></script>
+	<script src="themes.js"></script>
 
 </body>
+
 </html>
