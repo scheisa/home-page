@@ -31,7 +31,6 @@ function ThemeToggle(theme, strTheme) {
 	theme.addEventListener('click' ,()=>{
 		localStorage.setItem("currentTheme" , strTheme)
 	});
-	console.log(strTheme)
 }
 
 ThemeToggle(trooper, "trooper");
