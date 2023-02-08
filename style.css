@@ -188,7 +188,7 @@ body{
 	background: rgba(234 , 234 , 234 , 0.4);
 	position: relative;
 	align-items: center;
-	right: 10px;
+	left: 7px;
 }
 
 .search-bar button img{
