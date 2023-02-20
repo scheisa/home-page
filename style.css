@@ -101,21 +101,9 @@ body{
 	border: solid 4px var(--accent);
 }
 
-.picture{
-	max-width: 350px;
-	max-height: 700px;
-	align-items: center;
-	justify-content: center;
-	display: flex;
-}
-
 .image{
-	display: block;
-	position: relative;
 	height: 700px;
 	width: 350px;
-	align-items: center;
-	justify-content: center;
 }
 
 .clock{
