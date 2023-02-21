@@ -15,8 +15,8 @@ body{
 }
 
 .settings{
-	width: 100px;
-	height: 50px;
+	width: 75px;
+	height: 30px;
 	display: flex;
 	position: fixed;
 	top: 10px;
@@ -26,8 +26,8 @@ body{
 }
 
 .pseudo-button img{
-	height: 40px;
-	width: 40px;
+	height: 25px;
+	width: 25px;
 }
 
 .menu a{
@@ -56,17 +56,17 @@ body{
 .sub-menu{
 	display: none;
 	position: absolute;
-	right: 7px;
-	top: 40px;
+	top: 30px;
+    right: 7px;
 	color: #333333;
 	text-decoration: none;
-	width: 100px;
+	width: 70px;
 }
 
 .sub-menu a{
 	text-decoration: none;
 	color: var(--accent);
-	font-size: 20px;
+	font-size: 15px;
 	margin: 5px;
 }
 
@@ -80,47 +80,43 @@ body{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	flex-direction: row;
-}
-
-.secret{
-	outline: none;
-	background: transparent;
-	border: none;
-	width: 160px;
-	height: 100px;
-	position: relative;
-	top: 80px;
 }
 
 .square{
-	min-width: 700px;
-	min-height: 700px;
+	width: 500px;
+	height: 500px;
+    border: solid 2px var(--accent);
 	display: flex;
 	flex-direction: column;
-	border: solid 4px var(--accent);
+    align-items: center;
+    position: relative;
 }
 
 .image{
-	height: 700px;
-	width: 350px;
+	height: 500px;
+	width: 250px;
 }
 
 .clock{
-	border: solid 4px var(--second-accent);
+    width: 100%;
+}
+
+.clockbox{
+	border: solid 2px var(--second-accent);
 	color: #ffffff;
-	width: 240px;
-	height: 70px;
+	width: 175px;
+	height: 50px;
+    margin-top: 15px;
+    margin-left: 15px;
 	align-items: center;
 	justify-content: center;
 	display: flex;
 	flex-direction: column;
-	margin-top: 15px;
-	margin-left: 15px;
+    text-align: center;
 }
 
 .days{
-	font-size: 20px;
+	font-size: 15px;
 	font-family: 'EB Garamond', serif;
 	display: flex;
 	position: relative;
@@ -128,7 +124,7 @@ body{
 }
 
 .time{
-	font-size: 30px;
+	font-size: 20px;
 	font-family: 'Russo One', sans-serif;
 	display: flex;
 	font-weight: 600;
@@ -138,30 +134,27 @@ body{
 .search-bar{
 	width: 100%;
 	height: 100%;
-	width: 650px;
-	height: 60px;
+	width: 450px;
+	height: 40px;
 	background: rgba(255, 255, 255, 0.4);
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	border-radius: 20px;
-	margin-top: 40px;
+	border-radius: 15px;
+	margin-top: 30px;
 	padding: 10px 20px;
-	position: relative;
-	left: 18px;
 }
 
 .search-bar input{
-	width: 550px;
+	width: 350px;
 	display: flex;
 	border: 0;
 	outline: none;
 	color: #ffffff;
 	background: transparent;
 	position: relative;
-	left: 30px;
 	flex: 1;
-	font-size: 20px;
+	font-size: 15px;
 }
 
 ::placeholder{
@@ -171,16 +164,16 @@ body{
 .search-bar button{
 	border-radius: 30%;
 	border: 0;
-	width: 45px;
-	height: 45px;
+	width: 30px;
+	height: 30px;
 	background: rgba(234 , 234 , 234 , 0.4);
 	position: relative;
 	align-items: center;
-	left: 7px;
+	left: 10px;
 }
 
 .search-bar button img{
-	width: 25px;
+	width: 15px;
 }
 
 .search-bar button:hover{
@@ -188,33 +181,31 @@ body{
 }
 
 .buttons{
-	margin-top: 25px;
-	position: relative;
-	left: 50px;
-	width: 600px;
-	height: 450px;
-	border: solid 4px var(--accent);
+	margin-top: 15px;
+	width: 410px;
+	height: 310px;
+	border: solid 2px var(--accent);
 	display: flex;
 	justify-content: center;
+    align-items: center;
 }
 
+
 .buttons a{
-	margin-top: 20px;
-	margin-left: 10px;
-	margin-bottom: 20px;
-	margin-right: 10px;
-	position: relative;
-	top: 90px;
-	border: solid 4px var(--second-accent);
-	border-radius: 10px;
+	margin-top: 10px;
+	margin-left: 7px;
+	margin-bottom: 10px;
+	margin-right: 7px;
+	border: solid 2px var(--second-accent);
+	border-radius: 7px;
 	display: flex;
-	height: 50px;
-	width: 150px;
+	height: 35px;
+	width: 110px;
 	flex-direction: row;
 	align-items: center;
 	text-decoration: none;
 	color: #ffffff;
-	font-size: 23px;
+	font-size: 17px;
 	font-family: 'EB Garamond', serif;
 }
 
@@ -223,8 +214,8 @@ body{
 }
 
 .buttons img{
-	width: 40px;
-	height: 40px;
+	width: 25px;
+	height: 25px;
 	margin-top: 5px;
 	margin-right: 7px;
 	margin-left: 5px;
